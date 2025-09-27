@@ -1,0 +1,17 @@
+# Hide sensitive properties
+db.properties
+
+# Ignore compiled Java classes
+/build/
+/target/
+*.class
+
+# Ignore IDE-specific files (Eclipse)
+.classpath
+.project
+.settings/
+
+# Ignore server runtime files
+.tomcat/
+/Servers/
+/bin/
